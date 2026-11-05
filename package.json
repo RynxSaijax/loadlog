@@ -1,0 +1,16 @@
+{
+  "name": "loadlog",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "LoadLog — registro de treino de força, PWA offline sem backend.",
+  "scripts": {
+    "test": "node --test 'tests/unit/*.test.js' 'tests/integration/*.test.js'",
+    "test:e2e": "node --test 'tests/e2e/*.test.js'",
+    "serve": "node tools/serve.js"
+  },
+  "devDependencies": {
+    "fake-indexeddb": "6.2.7",
+    "playwright": "1.63.0"
+  }
+}

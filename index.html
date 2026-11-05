@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#0E0F11" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#F4F5F7" media="(prefers-color-scheme: light)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="LoadLog">
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: blob:; style-src 'self'; script-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
+  <title>LoadLog</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="src/design/tokens.css">
+  <link rel="stylesheet" href="src/design/base.css">
+  <script type="module" src="src/app.js"></script>
+</head>
+<body>
+  <div id="app" class="app">
+    <main id="screen" class="screen" tabindex="-1"></main>
+    <div id="toast" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+    <nav id="tabbar" class="tabbar"></nav>
+  </div>
+  <noscript>O LoadLog precisa de JavaScript ativado.</noscript>
+</body>
+</html>
